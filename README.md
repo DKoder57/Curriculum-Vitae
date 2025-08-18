@@ -33,15 +33,6 @@ Técnico em Informática — apaixonado por programação.
   </a>
 </div>
 
-<br>
-<p align="center">Visitas:</p>
-<p align="center">
-  <img align="center" src="https://profile-counter.glitch.me/DKoder57/count.svg" />
-</p>
-
-<br>
-
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/DKoder57/Curriculum-Vitae/output/github-contribution-grid-snake.svg" alt="Snake animation" />
 </p>
