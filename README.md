@@ -1,5 +1,5 @@
 # Olá! Eu sou Danilo César 👋  
-Técnico em Informática — apaixonado por programação e calistenia.
+Técnico em Informática — apaixonado por programação.
 
 ---
 
