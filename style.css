@@ -18,7 +18,7 @@ main {
 }
 
 html {
-  scroll-padding-top: 60px; /* Ajuste conforme a altura do seu nav */
+  scroll-padding-top: 80px; /* Ajuste conforme a altura do seu nav */
   scroll-behavior: smooth;
 }
 
@@ -145,4 +145,5 @@ footer a {
     gap: 0.5em;
   }
 }
+
 
