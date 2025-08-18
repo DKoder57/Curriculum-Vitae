@@ -17,6 +17,11 @@ main {
   margin-top: 200px;
 }
 
+html {
+  scroll-padding-top: 60px; /* Ajuste conforme a altura do seu nav */
+  scroll-behavior: smooth;
+}
+
 /* === Título e Informações === */
 #header {
   text-align: center;
@@ -140,3 +145,4 @@ footer a {
     gap: 0.5em;
   }
 }
+
