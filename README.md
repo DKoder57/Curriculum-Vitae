@@ -41,7 +41,16 @@ Técnico em Informática — apaixonado por programação.
 
 <br>
 
-![Snake animation](https://github.com/DKoder57/DKoder57/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/DKoder57/Curriculum-Vitae/output/dist/github-contribution-grid-snake.svg)
+
+
+---
+
+### 📜 Área de Certificados
+
+Você pode acessar meus certificados e formações diretamente pela página abaixo:
+
+🔗 [dkoder57.github.io/Curriculum-Vitae](https://dkoder57.github.io/Curriculum-Vitae)
 
 ---
 
@@ -55,7 +64,6 @@ Este repositório inclui funcionalidades interativas para melhorar a experiênci
 - **📜 Hover nos Certificados:** Na seção de educação, ao passar o mouse sobre o link de certificados, aparece a mensagem:  
   _“Insira suas identificações na parte de comentários da solicitação de acesso, por gentileza.”_
 
-Essas interações estão implementadas no arquivo `script.js`.
+Essas interações estão implementadas diretamente no código da página, sem necessidade de um arquivo `script.js` separado.
 
 ---
-
