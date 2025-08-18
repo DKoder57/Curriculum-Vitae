@@ -42,3 +42,20 @@ Técnico em Informática — apaixonado por programação.
 <br>
 
 ![Snake animation](https://github.com/DKoder57/DKoder57/blob/output/github-contribution-grid-snake.svg)
+
+---
+
+### 🧠 Interações com JavaScript
+
+Este repositório inclui funcionalidades interativas para melhorar a experiência do usuário:
+
+- **🔗 Hover no LinkedIn:** Ao passar o mouse sobre o link do LinkedIn no rodapé, aparece a mensagem:  
+  _“Visite meu perfil no LinkedIn!”_
+
+- **📜 Hover nos Certificados:** Na seção de educação, ao passar o mouse sobre o link de certificados, aparece a mensagem:  
+  _“Insira suas identificações na parte de comentários da solicitação de acesso, por gentileza.”_
+
+Essas interações estão implementadas no arquivo `script.js`.
+
+---
+
