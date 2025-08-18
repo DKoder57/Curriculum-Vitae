@@ -41,8 +41,8 @@ Técnico em Informática — apaixonado por programação.
 
 <br>
 
-![Snake animation](https://raw.githubusercontent.com/DKoder57/Curriculum-Vitae/output/dist/github-contribution-grid-snake.svg)
 
+![Snake animation](https://raw.githubusercontent.com/DKoder57/Curriculum-Vitae/output/dist/github-contribution-grid-snake.svg)
 
 ---
 
