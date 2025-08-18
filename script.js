@@ -23,4 +23,7 @@ CertLink.onmouseover = () => {
     });
 };
 CertLink.onmouseout = () => document.getElementById('hover-text')?.remove();
+document.documentElement.style.scrollBehavior = "smooth";
+document.documentElement.style.scrollPaddingTop = "80px";
+
 
