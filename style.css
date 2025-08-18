@@ -61,19 +61,6 @@ header {
     text-shadow: 1px 1px 2px #acd3ff;
 }
 
-#header-foto {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 2em;
-    margin-top: 1em;
-}
-
-#header-foto img {
-    border-radius: 50%;
-    box-shadow: 0 0 10px #acd3ff;
-    width: 80px;
-    height: 80px;
-}
 
 /* === Formações === */
 #educacao {
@@ -175,14 +162,10 @@ footer a {
         text-align: center;
     }
 
-    #header-foto img {
-        width: 60px;
-        height: 60px;
-    }
-
     #educacao, #experiencia, #habilidades, #resumo, #hobbies, #calistenia, #github {
         max-width: 100%;
         margin: 1em auto;
         padding: 1em;
     }
 }
+
