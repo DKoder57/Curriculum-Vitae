@@ -1,81 +1,98 @@
-/* === Estilo Global === */
-body {
-  background-color: #f5f5f5;
-  font-family: 'Segoe UI', 'Roboto', sans-serif;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-
-strong {
-  font-weight: 700;
-  text-decoration: underline;
-  text-decoration-color: rgba(0, 0, 0, 0.3);
-  color: #37479b;
-  text-shadow: 1px 1px 2px #acd3ff;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 /* === Cabeçalho === */
 header {
-  position: sticky;
+  position: fixed;
   top: 0;
   width: 100%;
   background-color: #1f295c;
   color: white;
-  padding: 1em 0.5em;
+  padding: 1em;
   box-shadow: 0 0 10px #000;
   z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+main {
+  margin-top: 200px;
+}
+
+/* === Título e Informações === */
 #header {
   text-align: center;
+  max-width: 90%;
 }
 
 #header h1 {
-  font-size: 1.8em; /* Reduzido */
+  font-size: 1.8em;
   margin: 0.2em 0;
   text-decoration: overline 2px #eeeeee;
 }
 
+#header h2 {
+  font-size: 1.2em;
+  margin: 0.2em 0;
+  font-weight: normal;
+}
+
+#header p {
+  margin: 0.2em 0;
+  font-size: 0.95em;
+}
+
+/* === Navegação Horizontal em Branco === */
 #header-info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin-top: 0.5em;
+  width: 100%;
 }
 
-#header-info nav ul {
-  padding: 0;
-  margin: 0;
+#header-info ul {
   list-style: none;
+  padding: 0.5em 1em;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-around;
+  max-width: 800px;
+  flex-wrap: wrap;
 }
 
-#header-info nav li {
+#header-info li {
+  font-size: 0.95em;
+  font-weight: bold;
+}
+
+#header-info a {
+  color: #1f295c;
+  text-decoration: none;
+  padding: 0.4em 0.8em;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
   display: inline-block;
-  margin: 0 0.5em;
-  font-size: 1em;
 }
 
-/* === Seções === */
+#header-info a:hover,
+#header-info a:active {
+  background-color: #e0e0e0;
+}
+
+/* === Seções Comuns === */
 section {
   margin: 2em auto;
   padding: 1em;
-  max-width: 700px;
+  max-width: 800px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0,0,0,0.1);
-  text-align: left;
 }
-
-/* === Títulos das seções === */
 section h2 {
-  text-align: center;
+  border-bottom: 2px solid #1f295c;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.5em;
   color: #1f295c;
+  width: max-content;
 }
 
 /* === Rodapé === */
@@ -84,8 +101,8 @@ footer {
   padding: 1em;
   background-color: #1f295c;
   color: #eeeeee;
-  font-size: 0.9em;
   text-align: center;
+  font-size: 0.9em;
 }
 
 footer a {
@@ -100,8 +117,26 @@ footer a {
     font-size: 1.4em;
   }
 
+  #header h2 {
+    font-size: 1em;
+  }
+
+  #header p,
+  #header-info p {
+    font-size: 0.85em;
+  }
+
   section {
     max-width: 95%;
     padding: 1em;
+  }
+
+  main {
+    margin-top: 200px;
+  }
+
+  #header-info nav ul {
+    flex-direction: column;
+    gap: 0.5em;
   }
 }
