@@ -1,5 +1,5 @@
 # Olá! Eu sou Danilo César 👋  
-Técnico em Informática — apaixonado por programação.
+Técnico em Informática.
 
 ---
 
@@ -39,7 +39,7 @@ Técnico em Informática — apaixonado por programação.
 
 ---
 
-### 📜 Área de Certificados
+### 📜 Currículo
 
 Você pode acessar meus certificados e formações diretamente pela página abaixo:
 
