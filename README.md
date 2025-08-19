@@ -1,6 +1,6 @@
 # Olá! Eu sou Danilo César 👋  
-Técnico em Informática.
-
+Técnico em Eletroeletrônica.
+Formando em ADS.
 ---
 
 <br>
