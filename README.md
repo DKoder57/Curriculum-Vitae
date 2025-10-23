@@ -18,7 +18,7 @@ Formando em ADS.
 <br>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,c,git,docker,java,spring,jenkins,linux,mysql,ps,py" />
+    <img src="https://skillicons.dev/icons?i=html,css,js,c,git,mongodb,java,linux,mysql,py" />
   </a>
 </p>
 
