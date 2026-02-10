@@ -59,5 +59,3 @@ Este site é o meu currículo digital interativo, criado para apresentar de form
 
 📂 Portfólio e projetos: incluo links para trabalhos práticos, como planos de treino e repositórios no GitHub.
 
-🎫 Certificados:
----
