@@ -47,16 +47,17 @@ Você pode acessar meus certificados e formações diretamente pela página abai
 
 ---
 
-### 🧠 Interações com JavaScript
+### 🧠 Sobre 
 
-Este repositório inclui funcionalidades interativas para melhorar a experiência do usuário:
+Este site é o meu currículo digital interativo, criado para apresentar de forma clara e organizada minha trajetória profissional e acadêmica.
 
-- **🔗 Hover no LinkedIn:** Ao passar o mouse sobre o link do LinkedIn no rodapé, aparece a mensagem:  
-  _“Visite meu perfil no LinkedIn!”_
+👤 Dados pessoais e contato: disponibilizo formas diretas de comunicação comigo.
 
-- **📜 Hover nos Certificados:** Na seção de educação, ao passar o mouse sobre o link de certificados, aparece a mensagem:  
-  _“Insira suas identificações na parte de comentários da solicitação de acesso, por gentileza.”_
+🎓 Formação acadêmica: compartilho meus cursos e certificações, mostrando minha evolução educacional.
 
-Essas interações estão implementadas diretamente no código da página, sem necessidade de um arquivo `script.js` separado.
+💼 Experiência profissional: apresento projetos e atividades que desenvolvi, destacando minhas competências técnicas.
 
+📂 Portfólio e projetos: incluo links para trabalhos práticos, como planos de treino e repositórios no GitHub.
+
+🎫 Certificados:
 ---
