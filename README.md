@@ -28,7 +28,7 @@ Formando em ADS.
   <a href="https://www.linkedin.com/in/danilo-c%C3%A9sar-mangueira-barcelos-98594a228/" target="_blank">
     <img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a> 
-  <a href="mailto:danilo.danilocesar@gmail.com">
+  <a href="mailto:danilocesarmbarcelos@gmail.com">
     <img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white">
   </a>
 </div>
