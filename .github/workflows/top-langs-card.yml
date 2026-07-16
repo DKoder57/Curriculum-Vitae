@@ -27,7 +27,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=DKoder57&layout=compact&theme=radical&hide_border=true
+          options: username=DKoder57&layout=compact&theme=radical&hide_border=true&exclude_repo=Projeto-desenvolve
           path: main/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
