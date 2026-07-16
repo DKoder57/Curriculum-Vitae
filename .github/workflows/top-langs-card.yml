@@ -1,0 +1,42 @@
+name: Update GitHub Top Languages Card
+
+on:
+  schedule:
+    - cron: "0 3 * * *"   # todo dia às 03:00 UTC
+  workflow_dispatch:       # permite rodar manualmente pela aba Actions
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main (para ler este workflow)
+        uses: actions/checkout@v4
+        with:
+          path: main
+
+      - name: Checkout output (onde o SVG será commitado)
+        uses: actions/checkout@v4
+        with:
+          ref: output
+          path: output
+
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=DKoder57&layout=compact&theme=radical&hide_border=true
+          path: main/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit to output branch
+        run: |
+          cp main/top-langs.svg output/top-langs.svg
+          cd output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add top-langs.svg
+          git commit -m "Update top languages card" || exit 0
+          git push origin output
