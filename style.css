@@ -1,3 +1,16 @@
+/* === Reset leve === */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background-color: #f4f5f7;
+  color: #222;
+  line-height: 1.5;
+}
+
 /* === Cabeçalho === */
 header {
   position: fixed;
@@ -6,7 +19,7 @@ header {
   background-color: #1f295c;
   color: white;
   padding: 1em;
-  box-shadow: 0 0 10px #000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   z-index: 1000;
   display: flex;
   flex-direction: column;
@@ -18,8 +31,14 @@ main {
 }
 
 html {
-  scroll-padding-top: 160px; /* Ajuste conforme a altura do seu nav */
+  scroll-padding-top: 160px;
   scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }
 
 /* === Título e Informações === */
@@ -31,13 +50,16 @@ html {
 #header h1 {
   font-size: 1.8em;
   margin: 0.2em 0;
-  text-decoration: overline 2px #eeeeee;
+  border-bottom: 2px solid #eeeeee;
+  padding-bottom: 0.2em;
+  display: inline-block;
 }
 
 #header h2 {
-  font-size: 1.2em;
-  margin: 0.2em 0;
+  font-size: 1.1em;
+  margin: 0.3em 0;
   font-weight: normal;
+  color: #cdd6f5;
 }
 
 #header p {
@@ -45,7 +67,12 @@ html {
   font-size: 0.95em;
 }
 
-/* === Navegação Horizontal em Branco === */
+#header p a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* === Navegação Horizontal === */
 #header-info {
   margin-top: 0.5em;
   width: 100%;
@@ -57,7 +84,7 @@ html {
   margin: 0 auto;
   background-color: #ffffff;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-around;
   max-width: 800px;
@@ -78,32 +105,116 @@ html {
   display: inline-block;
 }
 
-#header-info a:hover,
-#header-info a:active {
+#header-info a:hover {
   background-color: #e0e0e0;
+}
+
+#header-info a:focus-visible,
+footer a:focus-visible {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
 }
 
 /* === Seções Comuns === */
 section {
   margin: 2em auto;
-  padding: 1em;
+  padding: 1.2em 1.5em;
   max-width: 800px;
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
+
 section h2 {
   border-bottom: 2px solid #1f295c;
   padding-bottom: 0.3em;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.8em;
   color: #1f295c;
   width: max-content;
+}
+
+section ul {
+  padding-left: 1.2em;
+  margin: 0.5em 0;
+}
+
+section li {
+  margin-bottom: 0.3em;
+}
+
+/* === Projetos e Experiência (article) === */
+article {
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+article:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+article h3,
+article h4 {
+  color: #1f295c;
+  margin: 0 0 0.3em 0;
+}
+
+article h3 {
+  font-size: 1.15em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5em;
+}
+
+.periodo {
+  font-size: 0.8em;
+  font-weight: normal;
+  color: #777;
+}
+
+article p {
+  margin: 0.4em 0;
+}
+
+article a {
+  display: inline-block;
+  margin-top: 0.5em;
+  color: #1f295c;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 2px solid #1f295c;
+  transition: opacity 0.2s ease;
+}
+
+article a:hover {
+  opacity: 0.7;
+}
+
+/* === Listas de cursos === */
+#cursos h3 {
+  color: #1f295c;
+  margin-top: 1.5em;
+  font-size: 1.05em;
+}
+
+.cursos-lista {
+  columns: 2;
+  column-gap: 2em;
+  list-style: disc;
+}
+
+.cursos-lista li {
+  break-inside: avoid;
+  font-size: 0.95em;
 }
 
 /* === Rodapé === */
 footer {
   margin-top: 4em;
-  padding: 1em;
+  padding: 1.5em 1em;
   background-color: #1f295c;
   color: #eeeeee;
   text-align: center;
@@ -113,7 +224,20 @@ footer {
 footer a {
   color: #f8f8f5;
   font-weight: bold;
-  text-shadow: 1px 1px 2px #37479b;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  list-style: none;
+  padding: 0;
+  margin-top: 0.8em;
 }
 
 /* === Responsividade === */
@@ -126,8 +250,7 @@ footer a {
     font-size: 1em;
   }
 
-  #header p,
-  #header-info p {
+  #header p {
     font-size: 0.85em;
   }
 
@@ -137,14 +260,15 @@ footer a {
   }
 
   main {
-    margin-top: 200px;
+    margin-top: 220px;
   }
 
-  #header-info nav ul {
+  #header-info ul {
     flex-direction: column;
-    gap: 0.5em;
+    gap: 0.4em;
+  }
+
+  .cursos-lista {
+    columns: 1;
   }
 }
-
-
-
