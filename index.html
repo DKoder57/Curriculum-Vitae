@@ -3,135 +3,165 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Currículo de Danilo César Mangueira Barcelos, com formações, experiências e habilidades.">
+    <meta name="description" content="Currículo de Danilo César Mangueira Barcelos, Desenvolvedor Full-Stack — React, Next.js, Node.js, TypeScript, PostgreSQL.">
     <link rel="icon" href="favicon.ico">
-    <title>C.V Danilo César</title>
+    <title>C.V. Danilo César — Desenvolvedor Full-Stack</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-  <div id="header">
-    <h1>Curriculum Vitae</h1>
-    <p><strong>Danilo César Mangueira Barcelos</strong></p>
+    <div id="header">
+        <h1>Danilo César Mangueira Barcelos</h1>
+        <h2>Desenvolvedor Full-Stack · React · Next.js · Node.js · TypeScript · PostgreSQL</h2>
+        <p>
+            <a href="tel:+5531998330866">+55 31 99833-0866</a> ·
+            <a href="mailto:danilocesarmbarcelos@gmail.com">danilocesarmbarcelos@gmail.com</a> ·
+            Itabira, MG — remoto
+        </p>
+    </div>
 
-  </div>
-
-  <nav id="header-info">
-    <ul>
-      <li><a href="#educacao">Formações</a></li>
-      <li><a href="#experiencia">Experiência</a></li>
-      <li><a href="#habilidades">Habilidades</a></li>
-      <li><a href="#projeto">Projetos</a></li>
-      <li><a href="#github">GitHub</a></li>
-    </ul>
-  </nav>
+    <nav id="header-info" aria-label="Navegação do currículo">
+        <ul>
+            <li><a href="#resumo">Resumo</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#experiencia">Experiência</a></li>
+            <li><a href="#educacao">Educação</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#github">GitHub</a></li>
+        </ul>
+    </nav>
 </header>
 
+<main>
+    <section id="resumo">
+        <h2>Resumo</h2>
+        <p>Desenvolvedor Full-Stack em formação (ADS — Descomplica, conclusão 2027), com projetos reais em React, Next.js, TypeScript, Node.js, Express, PostgreSQL e Prisma. Experiência prévia em ambiente industrial corporativo (Vale) com automação de dados e otimização de processos. Busco estágio remoto em desenvolvimento web onde possa contribuir desde o primeiro dia com stack moderna e arquitetura profissional.</p>
+    </section>
 
-    <main>
-        <section id="educacao">
-            <h2>Formações</h2>
-            <div class="formacao0">
-                <h4>* Análise e Desenvolvimento de Sistemas</h4>
-                <p><strong>Instituição:</strong> Faculdade Descomplica</p>
-                <p><strong>Período:</strong> 2025 - Atual</p>
-            </div>
-            <div class="formacao1">
-                <h4>* Curso de Programação</h4>
-                <p><strong>Instituição:</strong> Projeto Desenvolve / Prefeitura de Itabira</p>
-                <p><strong>Período:</strong> 2024 - Atual</p>
-            </div>
-            <div class="formacao2">
-                <h4>* Técnico Eletroeletrônica</h4>
-                <p><strong>Instituição:</strong> SENAI Itabira CFP Pedro Martins Guerra</p>
-                <p><strong>Período:</strong> 2021 - 2023</p>
-            </div>
-            <div class="formacao3">
-                <h4>* Curso de Mecânica Industrial</h4>
-                <p><strong>Instituição:</strong> SENAI Itabira CFP Pedro Martins Guerra</p>
-                <p><strong>Período:</strong> 2023 - 2024</p>
-            </div>
-            <div class="formacao4">
-                <h4>* Aprendizagem Mecânica Industrial</h4>
-                <p><strong>Instituição:</strong> Vale S.A. </p>
-                <p><strong>Período:</strong> 2023 - 2025</p>
-            </div>
-            <a href="https://drive.google.com/drive/u/0/folders/1pyLsYm2tvITMdxhS6bdh9d0y1d4HrvAH" title="Link para o Google Drive com certificados" target="_blank">Link para alguns dos certificados.(Certificados com dados sensível é necessário solicitar permissão).</a>
-        </section>
+    <section id="habilidades">
+        <h2>Habilidades técnicas</h2>
+        <ul>
+            <li><strong>Front-end:</strong> React.js, Next.js, TypeScript, JavaScript, HTML5, CSS3, Zustand</li>
+            <li><strong>Back-end:</strong> Node.js, Express.js, REST API, JWT, bcrypt, Prisma ORM</li>
+            <li><strong>Banco de dados:</strong> PostgreSQL, MongoDB (básico)</li>
+            <li><strong>Ferramentas:</strong> Git, GitHub, VS Code, Figma, Jupyter Notebook</li>
+            <li><strong>Em aprendizado:</strong> C#, Unity (gamedev), AWS Cloud</li>
+            <li><strong>Diferencial:</strong> Modelagem 3D, Ilustração 2D, Web Audio API, detecção de pitch em tempo real</li>
+        </ul>
+    </section>
 
-        <section id="experiencia">
-            <h2>Experiências</h2>
-            <div class="experiencia1">
-                <h3>Jovem Aprendiz em Mecânica Diesel</h3>
-                <p><strong>Instituição:</strong> Vale S.A</p>
-                <p><strong>Local:</strong> Itabira/MG - Mina de Cauê</p>
-                <p><strong>Período:</strong> 17/04/2023 - 16/04/2024</p>
-            </div>
-        </section>
+    <section id="projetos">
+        <h2>Projetos</h2>
 
-        <section id="habilidades">
-            <h2>Competências</h2>
+        <article class="projeto">
+            <h3>WebViolin <span class="periodo">2024 — em andamento</span></h3>
+            <p>Plataforma full-stack para afinação e treino de violino com detecção de frequência em tempo real, sistema de ranking global e histórico de progresso.</p>
             <ul>
-                <li>Informática intermediária</li>
-                <li>Softwares CAD intermediário</li>
-                <li>Excel intermediário</li>
-                <li>Pacote Office básico</li>
-                <li>Programação básica (HTML, CSS e JavaScript)</li>
-                <li>Inglês intermediário (leitura e escrita)</li>
-                <li>Mecânica intermediária</li>
-                <li>Eletricidade intermediária</li>
-                <li>Pneumática básica</li>
-                <li>Hidráulica básica</li>
-                <li>Eletrônica intermediária</li>
-                <li>Criação de Projetos</li>
-                <li>Criação de Planilhas</li>
-                <li>Desenhos técnicos</li>
+                <li>Arquitetura monorepo (apps/web + apps/api) com Next.js, TypeScript, Zustand e Web Audio API no front-end</li>
+                <li>Back-end com Node.js, Express, PostgreSQL, Prisma, autenticação JWT e criptografia bcrypt</li>
+                <li>Detecção de pitch em tempo real via Web Audio API — processamento de áudio direto no navegador</li>
             </ul>
-        </section>
+            <a href="https://github.com/DKoder57/WebViolin" target="_blank" rel="noopener noreferrer">Ver repositório</a>
+        </article>
 
-        <section id="resumo">
-            <h2>Resumo</h2>
-            <p>Iniciei minha formação técnica em Eletroeletrônica pelo SENAI, adquirindo uma base sólida em eletrônica e eletrotécnica. Posteriormente, atuei na área de Mecânica Diesel pela Vale, experiência que ampliou meu conhecimento prático em manutenção de equipamentos e fortaleceu minhas competências em trabalho em equipe. Também participei de um curso de programação promovido pela prefeitura, desenvolvendo habilidades em front‑end (HTML, CSS e JavaScript) e atualmente avanço para back‑end, com o objetivo de consolidar minha carreira como desenvolvedor Full Stack.</p>
-            <p>Interesse em aplicar avanços como cloud, IA, automação e integração de sistemas. Expando conhecimentos em ciência de dados, segurança, IoT e mobile, mantendo foco em aprendizado contínuo para contribuir com soluções inovadoras em tecnologia.</p>
-        </section>
+        <article class="projeto">
+            <h3>Portfólio Interativo <span class="periodo">2024</span></h3>
+            <p>Site pessoal publicado com GitHub Pages, com CRUD completo via Firebase Firestore, upload de imagens via Cloudinary e autenticação GitHub OAuth para gerenciamento de projetos.</p>
+            <a href="https://dkoder57.github.io/Portfolio-interativo" target="_blank" rel="noopener noreferrer">Acessar Portfólio</a>
+        </article>
 
-        <section id="hobbies">
-            <h2>Hobbies</h2>
+        <article class="projeto">
+            <h3>TCC — Prova Virtual de Roupas <span class="periodo">em desenvolvimento</span></h3>
+            <p>App web de prova virtual de roupas com avatar 3D — e-commerce completo com fitting virtual usando modelagem 3D e visão computacional.</p>
+        </article>
+    </section>
+
+    <section id="experiencia">
+        <h2>Experiência</h2>
+        <article>
+            <h3>Aprendiz Técnico — Automação e Dados</h3>
+            <p><strong>Vale S.A.</strong> · Itabira, MG · abr 2023 — abr 2024</p>
             <ul>
-                <li>Estudar sobre Tecnologia, inovações, suas aplicações, e impactos econômicos.</li>
-                <li>Estudar sobre Música, instrumentos. Quero dominar todos os instrumentos que conseguir em vida.</li>
-                <li>Buscar Conhecimento e Aprendizado em novidades.</li>
-                <li>Buscar Saúde e Bem-estar, da culinária até calistenia.</li>
-                <li>Jogar Vídeo-Games, estimula bem o cérebro.</li>
-                <li>Plantar e relacionados</li>
-         
+                <li>Automatizei processos administrativos com macros e fórmulas avançadas no Excel, reduzindo em 30% o tempo de execução</li>
+                <li>Otimizei gestão de dados na ferramentaria, aumentando eficiência operacional em 20%</li>
+                <li>Integrei ferramentas de CAD e modelagem 3D ao fluxo de prototipagem de peças industriais</li>
             </ul>
-        </section>
+        </article>
+    </section>
 
-        <section id="projetos">
-            <h2>Projetos</h2>
-            <p>Explore minha rotina de calistenia personalizada com progressões e exercícios organizados por nível. Usei base de front-end para execução do projeto.</p>
-            <a href="https://dkoder57.github.io/Portfolio-interativo/" target="_blank">Acessar meu Portfolio</a>
-        </section>
+    <section id="educacao">
+        <h2>Educação</h2>
+        <article>
+            <h4>CST em Análise e Desenvolvimento de Sistemas</h4>
+            <p>Descomplica Faculdade Digital · EAD · fev 2025 — ago 2027</p>
+        </article>
+        <article>
+            <h4>Ensino Técnico em Eletroeletrônica</h4>
+            <p>SENAI CTTI Itabira · out 2021 — mai 2023</p>
+        </article>
+    </section>
 
-        <section id="github">
-            <h2>Repositório GitHub</h2>
-            <p>Veja o código-fonte deste currículo e outros projetos:</p>
-            <a href="https://github.com/DKoder57/Curriculum-Vitae" target="_blank">Ver código no GitHub</a>
-        </section>
-    </main>
+    <section id="cursos">
+        <h2>Formação prática</h2>
+        <article>
+            <h4>Projeto Desenvolve Itabira — Programação Full-Stack</h4>
+            <p>Prefeitura de Itabira · UFMG · SEBRAE · nov 2024 — em andamento</p>
+            <p>1.800h de formação prática em HTML, CSS, JavaScript, React, Node.js, TypeScript, PostgreSQL, Git e Figma. Inglês técnico via Rosetta Stone. Conexão com empresas parceiras nacionais e internacionais.</p>
+        </article>
 
-    <footer>
-        <p>Email: <a href="mailto:Danilocesarmbarcelos@gmail.com">Danilocesarmbarcelos@gmail.com</a></p>
-        <p>Telefone: (31) 99833-0866 • Itabira/MG - Brasil</p>
-        <div class="footer" id="footer">
-            <p>&copy; 2025 Danilo César Mangueira Barcelos</p>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/danilo-c%C3%A9sar"></a></li>
+        <h3>Cursos e certificações</h3>
+        <ul class="cursos-lista">
+            <li>Full Stack Developer — Descomplica</li>
+            <li>Backend Developer — Descomplica</li>
+            <li>Frontend Developer — Descomplica</li>
+            <li>Object-Oriented Developer — Descomplica</li>
+            <li>Basic Frontend Developer — Descomplica</li>
+            <li>Programmer — Descomplica</li>
+            <li>Foundational C# with Microsoft — freeCodeCamp · Microsoft · em andamento</li>
+            <li>Introdução ao Desenvolvimento Web — Projeto Desenvolve</li>
+            <li>Banco de Dados — Projeto Desenvolve</li>
+            <li>Lógica de Programação — SENAI</li>
+            <li>Python — Projeto Desenvolve</li>
+            <li>Linux — Projeto Desenvolve</li>
+            <li>NoCode — Projeto Desenvolve</li>
+            <li>Scratch — Projeto Desenvolve</li>
+            <li>Imersão em Inteligência Artificial</li>
+        </ul>
 
+        <h3>Cursos avulsos</h3>
+        <ul class="cursos-lista">
+            <li>DP-100: Designing and Implementing a Data Science Solution on Azure — DIO/Microsoft</li>
+            <li>Administração Estratégica</li>
+            <li>Cadeia de Suprimentos</li>
+            <li>Cálculo Técnico</li>
+            <li>Propriedade Intelectual — SENAI</li>
+            <li>Mecânica Básica — SENAI</li>
+        </ul>
+    </section>
 
+    <section id="idiomas">
+        <h2>Idiomas</h2>
+        <p>Português — nativo · Inglês — intermediário (leitura técnica fluente)</p>
+    </section>
 
+    <section id="github">
+        <h2>Repositório GitHub</h2>
+        <p>Veja o código-fonte deste currículo e outros projetos:</p>
+        <a href="https://github.com/DKoder57/Curriculum-Vitae" target="_blank" rel="noopener noreferrer">Ver código no GitHub</a>
+    </section>
+</main>
 
-
-
-
+<footer>
+    <p>Email: <a href="mailto:danilocesarmbarcelos@gmail.com">danilocesarmbarcelos@gmail.com</a></p>
+    <p>Telefone: <a href="tel:+5531998330866">(31) 99833-0866</a> · Itabira/MG — Brasil</p>
+    <div class="footer" id="footer">
+        <p>&copy; 2026 Danilo César Mangueira Barcelos</p>
+        <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/danilo-c%C3%A9sar-mangueira-barcelos-98594a228/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://github.com/DKoder57" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
