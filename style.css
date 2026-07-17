@@ -27,11 +27,11 @@ header {
 }
 
 main {
-  margin-top: 220px;
+  margin-top: 200px;
 }
 
 html {
-  scroll-padding-top: 160px;
+  scroll-padding-top: 180px;
   scroll-behavior: smooth;
 }
 
