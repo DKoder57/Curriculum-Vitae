@@ -19,6 +19,7 @@ header {
   background-color: #1f295c;
   color: white;
   padding: 1em;
+  margin-top: 2em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
   z-index: 1000;
   display: flex;
@@ -75,7 +76,6 @@ html {
 /* === Navegação Horizontal === */
 #header-info {
   margin-top: 0.5em;
-  margin-bottom: 2em;
   width: 100%;
 }
 
